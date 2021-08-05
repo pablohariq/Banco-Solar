@@ -67,7 +67,7 @@
                 />
               </div>
 
-              <button type="submit" class="btn btn-danger">Relalizar</button>
+              <button type="submit" class="btn btn-danger">Transferir</button>
             </div>
           </div>
         </form>
@@ -252,7 +252,7 @@
       const data = await response.json();
       location.reload();
     } catch (e) {
-      console.log(e);
+      console.log("hola", e);
       alert("Algo salió mal..." + e);
     }
   });
